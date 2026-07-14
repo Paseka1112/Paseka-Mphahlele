@@ -18,6 +18,7 @@ password = "my password went here"
 
 def send_email(tweet_text, tweet_id, author_id):
     """An email notification is sent when a possible complaint is found"""
+    ##When I ran the program I was surprised to find links to other apps like Tik Tok and Youtube
     tweet_url = f"https://x.com{tweet_id}"
 
     msg = MIMEMultipart()
