@@ -14,7 +14,7 @@ it_team = "pasekammphahlele@gmail.com"
 pr_team = "pasekammphahlele@gmail.com"
 smtp_server = "smtp.gmail.com"  
 smtp_port = 587
-password = "jjkp ysuz hfwl qxev" 
+password = "my password went here" 
 
 def send_email(tweet_text, tweet_id, author_id):
     """An email notification is sent when a possible complaint is found"""
