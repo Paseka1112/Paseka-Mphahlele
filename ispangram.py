@@ -5,6 +5,7 @@ import string
 import csv
 
 def ispangram(s):
+    """A pangram (from the Greek pan- "all" and gramma "letter") is a short sentence that contains every letter of the alphabet at least onc"""
     alphabet = string.ascii_lowercase
     s = s.lower()
     collected = ''
