@@ -5,7 +5,7 @@ import tweepy
 import os
 from email.message import EmailMessage
 
-X_BEARER_TOKEN = "AAAAAAAAAAAAAAAAAAAAABeP%2BgEAAAAA5uk7GkUm%2Fi45%2FG590fM7LLMdAdY%3DomNS8e3bH3tHESXTcWMdKSkXRiymYcRtvhC8hRe7Xfyu0DmLzh"
+X_BEARER_TOKEN = "MY X_BEARER_TOKEN"
 Brand_Name = 'Checkers Sixty60'
 keywords = "(broken OR worst OR terrible OR hate OR complaint OR support OR fails)"
 Search_Query = f"@{Brand_Name} {keywords} -is:retweet"
