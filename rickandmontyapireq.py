@@ -16,7 +16,7 @@ def get_pages(response):
 def parse_json(response):
     charlist = []
     for item in response['results']:
-        char = { 
+        char = { 'id' : item['id'],
             'name' : item['name'],
             'no_ep' : len(item['episode']),
         }
@@ -30,5 +30,5 @@ for x in range(1, get_pages(data) + 1):
     print(x)
     mainlist.extend(parse_json(main_request(url, endpoint,x)))
 df = pd.DataFrame(mainlist)
-print(df.head())
+df.to_csv('charlist.csv, index = False)
 
