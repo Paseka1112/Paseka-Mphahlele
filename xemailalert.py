@@ -1,3 +1,8 @@
+##keeping these here for future reference
+##https://cli.nylas.com/guides/send-email-python
+##https://docs.tweepy.org/en/stable/getting_started.html#example
+#https://docs.x.com/xdks/python/quickstart
+
 import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
