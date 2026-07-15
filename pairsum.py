@@ -3,6 +3,7 @@ import stdio
 from instream import InStream
 
 def pairsum(x, target):
+    """Tests id there is a pair of elements in x[] which is equal to target"""
     for i in range(len(x)):
         for j in range(i+1, len(x)):
             if (x[i] + x[j] == target):
