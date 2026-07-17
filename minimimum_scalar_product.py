@@ -2,7 +2,7 @@ import sys
 import stdio
 
 def min_scalar(u, v):
-    """This function returns the minimum scalar product of two vecors u and v"""
+    """This function returns the minimum scalar product of two vectors u and v"""
     x = sorted(u)
     y = sorted(v, reverse= True)
 
