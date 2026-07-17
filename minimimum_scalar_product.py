@@ -13,7 +13,7 @@ def min_scalar(u, v):
 
 def main():
     u = [1, 3, -5]
-    v = [-2, 4, 1]
+    v = [-2, 4, 1, 7]
     result = min_scalar(u, v)
     stdio.writeln(result)
 if __name__ == '__main__': main()
