@@ -1,4 +1,4 @@
-#This was a guided tut
+
 import requests
 import pandas as pd
 
